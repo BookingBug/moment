@@ -2227,6 +2227,10 @@
             }
         },
 
+        toISODate : function () {
+            return formatMoment(this, 'YYYY-MM-DD');
+        },
+
         toArray : function () {
             var m = this;
             return [
