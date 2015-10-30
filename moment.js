@@ -1946,7 +1946,7 @@
         }
     }
 
-    function toISODate () {
+    function moment_format__toISODate () {
         return formatMoment(this, 'YYYY-MM-DD');
     }
         
@@ -2533,6 +2533,7 @@
     momentPrototype__proto.toObject     = toObject;
     momentPrototype__proto.toDate       = toDate;
     momentPrototype__proto.toISOString  = moment_format__toISOString;
+    momentPrototype__proto.toISODate    = moment_format__toISODate;
     momentPrototype__proto.toJSON       = moment_format__toISOString;
     momentPrototype__proto.toString     = toString;
     momentPrototype__proto.unix         = unix;
